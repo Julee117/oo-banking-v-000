@@ -34,4 +34,10 @@ class Transfer
       "Transaction rejected. Please check your account balance."
     end
   end
+
+  #Can add this method instead of writing the 2 lines repeatedly 
+  # def reject_transfer
+  #   self.status = "rejected"
+  #   "Transaction rejected. Please check your account balance."
+  # end
 end
